@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>RaiseTech（レイズテック）Hamberger</title>
+        <meta name="description" content="RaiseTechハンバーガーサイト">
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--フォントの導入 M+フォントcssからインポートすればhtmlの記述は不要？
+        <link rel="stylesheet" href="http://mplus-webfonts.sourceforge.jp/mplus_webfonts.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+        -->
+    </head>
+        <body>
+            <!--footer以外を包むwrapper-->
+            <div class="l__wrapper">
+            <!--header部分とmain部分(記事・map)-->
+                <div class="l__wrapper--main">
+                <!--header部分　サイト名～写真部分まで-->
+                    <header class="l__header" role="banner">
+                        <div class="p__header--main">
+                            <h2 class="c__header--title">Hamburger</h2>
+                            <!--検索バー　後で虫眼鏡のアイコンを入れる　サイト名の右にflexか何かで並べる必要があるため、検索バーをサイト名の子要素としているWPのプラグインらしいので暫定的にコメントアウト-->
+                            <div class=c__searchform>
+                                <form id="form01" action="" method="get">
+                                <input class="c__searchform--box" type="search" name="searchform">
+                                <input class="c__submit"type="submit" value="検索"> 
+                                </form>
+                            </div>
+                        <!--検索バーまで-->
+                        </div>
+                        <!--写真部分 divタグで分ける必要があるのか・・・？ div部分とimage部分の箱が同じ大きさの為imgタグにclassをつけていない-->
+                        <div class="p__header--image">
+                            <img src="image/front-page/front-page_header.png" width="820" height="280">
+                        </div>
+                    </header>
+                    <!--header部分終了 -->
+                    <!--main(記事・map)部分-->
+                    <main class=l__main>
+                        <!--article部分　take outとeat in-->
+                        <article>
+                            <!--take out部分　画像をdivタグのbackgroundに設定し、見出しと、小見出しを2つ付ける -->
+                            <div class="p__article--takeout">
+                                <!--見出し部分 cssでtake outの下線部も再現できると思うのだが・・・？-->
+                                <h3 class="p__heading">Take Out</h3>
+                                <div class="p__heading--small">
+                                    <h4 class="p__heading--small">小見出しが入ります</h4>
+                                    <p class="c__heading--small--text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                                </div>
+                                <div class="p__heading--small">
+                                    <h4 class="p__heading--small">小見出しが入ります</h4>
+                                    <p class="c__heading--small--text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                                </div>
+                            </div>
+                            <!--eat in 部分-->
+                            <!--見出し部分 cssでtake outの下線部も再現できると思うのだが・・・？-->
+                            <h3 class="p__heading">Eat In</h3>
+                            <div class="p__heading--small">
+                                <h4 class="p__heading--small">小見出しが入ります</h4>
+                                <p class="c__heading--small--text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                            </div>
+                            <div class="p__heading--small">
+                                <h4 class="p__heading--small">小見出しが入ります</h4>
+                                <p class="c__heading--small--text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                            </div>
+                        </article>
+                        <!--googlemap部分-->
+                        <aside class=p__aside--wrapper>
+                            <iframe class="p__aside--map" src="https://www.google.com/maps/d/embed?mid=1AJeFEUctVjLyANcnoHSS0-ZWAx0&hl=ja" width="640" height="480">
+                                <!--地図の上の半透明のテキスト部分-->
+                                <div class="p__aside--textbox">
+                                    <!--見出し部分　下線部はCSSで再現？-->
+                                    <h3 class="p__aside--heading">見出しが入ります</h3>
+                                        <div class="p__aside--text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</div>
+                                </div>
+                            </iframe>
+                        </aside>
+                    <!--main部分(記事・map)終了-->
+                    </main>
+                <!--header＋mainのwrapper終了-->
+                </div>
+            <!--ナビゲーションメニュー-->
+            <div class="p__nav">
+                <p class="p__nav--btn">
+                   <a href="javascript:void(0)">
+                        <span>menu</span>
+                    </a>
+                </p>
+                <nav class="p__nav--body">
+                    <div class="p__nav--burger">バーガー
+                        <ul class="p__nav--burgermenu"> 
+                            <li>ハンバーガー</li>
+                            <li>チーズバーガー</li>
+                            <li>テリヤキバーガー</li>
+                            <li>アボカドバーガー</li>
+                            <li>フィッシュバーガー</li>
+                            <li>ベーコンバーガー</li>
+                            <li>チキンバーガー</li>
+                        </ul>
+                    </div>
+                    <div class="p__nav--side">サイド
+                        <ul class="p__nav--sidemenu">
+                            <li>ポテト</li>
+                            <li>サラダ</li>
+                            <li>ナゲット</li>
+                            <li>コーン</li>
+                        </ul>
+                    </div>
+                    <div class="p__nav--drink">ドリンク
+                        <ul class="p__nav--drinkmenu">
+                            <li>コーラ</li>
+                            <li>ファンタ</li>
+                            <li>オレンジ</li>
+                            <li>アップル</li>
+                            <li>紅茶（Ice/Hot)</li>
+                            <li>コーヒー（Ice/Hot)</li>
+                        </ul>
+                    </div>
+                <!--nav部分終了-->
+                </nav>
+            <!--navのボタン部分とか-->
+            </div>
+         <!--footer以外を包むwrapperの終了-->
+        </div>
+        <!--footer部分-->
+        <footer class="l__footer">
+            <p class="p__footer--info">ショップ情報|ヒストリー</p>
+            <p class="p__footer--copyright">Copyright:RaiseTech</p>
+        </footer>
+    </body>
+</html>
