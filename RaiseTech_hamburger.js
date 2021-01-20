@@ -8,8 +8,11 @@ let y = 1024;
 //windowサイズがpcサイズの1024px以上になったら
 if (x >= y) {
 $('.p__nav--body').addClass('p__nav--bodyopen').removeClass('p__nav--body');
-}else{
-$('.p__nav--body').addClass('p__nav--body').removeClass('p__nav--body');
+//windowサイズがpcサイズの1024未満になったら
+}else if(x < y){
+//class名がp__nav--bodyopenの時、windwサイズが1024px未満になったらp__nav--bodyに変更する
+$('.p__nav--bodyopen').addClass('p__nav--body').removeClass('p__nav--bodyopen');
 }
+else;
 });
 
