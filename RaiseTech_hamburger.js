@@ -1,7 +1,7 @@
-//pc以外の時はdisplay noneにしておき、PCになった時は表示させる。
+/*pc以外の時はdisplay noneにしておき、PCになった時は表示させる。
 //tb 768px pc 1024px
 
-//メニューの開閉
+//メニューの開閉は、breakpoinをmixinで定義しているので、include使えばjsなくても実装できそうな気がするため、コメントアウトする
 $(window).resize(function(){
 let x = $(window).width();
 let y = 1024;
@@ -16,3 +16,4 @@ $('.p__nav--bodyopen').addClass('p__nav--body').removeClass('p__nav--bodyopen');
 else;
 });
 
+*/
