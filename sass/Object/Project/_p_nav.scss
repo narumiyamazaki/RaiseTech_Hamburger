@@ -7,8 +7,13 @@
 */
 .p__nav {
     text-align: right;
-    background-color: rgba(0,0,0,0.5);
-    background-color: #F2EDE9;
+        & &--wrapper {
+            background-color: rgba(0,0,0,0.5);
+            & &--body {
+                 background-color: #F2EDE9;
+                 padding-left: 10px;
+        }
+    }
 }
 .p__nav--btn {
     margin: 0;
