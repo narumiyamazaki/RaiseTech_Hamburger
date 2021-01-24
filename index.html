@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="css/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="jquery-3.5.1.min.js"></script>
-        <script type="text/javascript" src="RaiseTech_hamburger.js"></script>
+        <script src="RaiseTech_hamburger.js"></script>
         <!--フォントの導入 M+フォントcssからインポートすればhtmlの記述は不要？
         <link rel="stylesheet" href="http://mplus-webfonts.sourceforge.jp/mplus_webfonts.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -82,45 +82,50 @@
                     </main>
                 <!--header＋mainのwrapper終了-->
                 </div>
-            <!--ナビゲーションメニュー-->
+            <!--ボタン部分を含むナビゲーションメニュー全体-->
             <div class="p__nav">
                 <p class="p__nav--btn">
                    <a href="javascript:void(0)">
                         <span>menu</span>
                     </a>
                 </p>
-                <nav class="p__nav--body">
-                    <div class="p__nav--burger">バーガー
-                        <ul class="p__nav--burgermenu"> 
-                            <li>ハンバーガー</li>
-                            <li>チーズバーガー</li>
-                            <li>テリヤキバーガー</li>
-                            <li>アボカドバーガー</li>
-                            <li>フィッシュバーガー</li>
-                            <li>ベーコンバーガー</li>
-                            <li>チキンバーガー</li>
-                        </ul>
-                    </div>
-                    <div class="p__nav--side">サイド
-                        <ul class="p__nav--sidemenu">
-                            <li>ポテト</li>
-                            <li>サラダ</li>
-                            <li>ナゲット</li>
-                            <li>コーン</li>
-                        </ul>
-                    </div>
-                    <div class="p__nav--drink">ドリンク
-                        <ul class="p__nav--drinkmenu">
-                            <li>コーラ</li>
-                            <li>ファンタ</li>
-                            <li>オレンジ</li>
-                            <li>アップル</li>
-                            <li>紅茶（Ice/Hot)</li>
-                            <li>コーヒー（Ice/Hot)</li>
-                        </ul>
-                    </div>
-                <!--nav部分終了-->
-                </nav>
+                <!--ナビゲーションの背景の黒の透過部分等を再現するためのwrapper p__navに黒い部分を選択すると、ボタン部分まで黒くなってしまう。PCサイズ以外はp__nav---->
+                <div class="p__nav--wrapper">
+                    <!--ナビゲーションメニューのメニューが書いてある部分-->
+                    <nav class="p__nav--body">
+                        <div class="p__nav--burger">バーガー
+                            <ul class="p__nav--burgermenu"> 
+                                <li>ハンバーガー</li>
+                                <li>チーズバーガー</li>
+                                <li>テリヤキバーガー</li>
+                                <li>アボカドバーガー</li>
+                                <li>フィッシュバーガー</li>
+                                <li>ベーコンバーガー</li>
+                                <li>チキンバーガー</li>
+                            </ul>
+                        </div>
+                        <div class="p__nav--side">サイド
+                            <ul class="p__nav--sidemenu">
+                                <li>ポテト</li>
+                                <li>サラダ</li>
+                                <li>ナゲット</li>
+                                <li>コーン</li>
+                            </ul>
+                        </div>
+                        <div class="p__nav--drink">ドリンク
+                            <ul class="p__nav--drinkmenu">
+                                <li>コーラ</li>
+                                <li>ファンタ</li>
+                                <li>オレンジ</li>
+                                <li>アップル</li>
+                                <li>紅茶（Ice/Hot)</li>
+                                <li>コーヒー（Ice/Hot)</li>
+                            </ul>
+                        </div>
+                    <!--navbody部分終了-->
+                    </nav>
+                <!--nav--wrapper部分終了-->
+                </div>
             <!--navのボタン部分とか-->
             </div>
          <!--footer以外を包むwrapperの終了-->
