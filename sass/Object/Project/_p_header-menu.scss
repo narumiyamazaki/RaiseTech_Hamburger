@@ -2,4 +2,7 @@
 @include header--title--menu(2rem);
 margin: 0;
 text-align: right;
+@include media(pc) {
+    display: none;
+    }
 }
