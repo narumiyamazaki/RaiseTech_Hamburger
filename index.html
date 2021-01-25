@@ -19,22 +19,27 @@
             <div class="l__wrapper">
             <!--header部分とmain部分(記事・map)-->
                 <div class="l__wrapper--main">
-                <!--header部分　サイト名～写真部分まで-->
+                <!--header部分　メニュー・サイト名～写真部分まで-->
                     <header class="l__header" role="banner">
-                        <div class="p__header--main">
+                        <!--メニュー、タイトル、検索バーのwrapper　PCサイズ以外の時はすべて縦てで並べておき、PCサイズになったらメニューを非表示にして、このwrapper部分にflexをかけてメニューと検索バーを並べる-->
+                        <div class="p__header--wrapper">
+                            <!--メニュー部分-->
+                            <div class="p__header--menu"><span>menu</span></div> 
+                            <!--タイトル部分-->
                             <h2 class="c__header--title">Hamburger</h2>
-                            <!--検索バー　後で虫眼鏡のアイコンを入れる　サイト名の右にflexか何かで並べる必要があるため、検索バーをサイト名の子要素としているWPのプラグインらしいので暫定的にコメントアウト-->
-                            <div class=c__searchform>
+                             <!--検索バー　後で虫眼鏡のアイコンを入れる　サイト名の右にflexか何かで並べる必要があるため、検索バーをサイト名の子要素としているWPのプラグインらしいので暫定的にコメントアウト-->
+                             <div class=c__searchform>
                                 <form id="form01" action="" method="get">
                                 <input class="c__searchform--box" type="search" name="searchform">
                                 <input class="c__submit"type="submit" value="検索"> 
                                 </form>
+                            <!--検索バーまで-->
                             </div>
-                        <!--検索バーまで-->
+                        <!--メニュー・タイトル・検索バーのwrapper-->
                         </div>
                         <!--写真部分 divタグで分ける必要があるのか・・・？ div部分とimage部分の箱が同じ大きさの為imgタグにclassをつけていない-->
                         <div class="p__header--image">
-                            <img src="image/front-page/front-page_header.png" width="820" height="280">
+                            <img src="image/front-page/front-page_header.png">
                         </div>
                     </header>
                     <!--header部分終了 -->

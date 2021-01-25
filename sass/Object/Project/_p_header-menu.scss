@@ -1,0 +1,5 @@
+.p__header--menu{
+@include header--title--menu(2rem);
+margin: 0;
+text-align: right;
+}
