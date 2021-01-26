@@ -1,4 +1,7 @@
 .c__searchform {
     text-align: center;
+    padding:30px 0;
+    @include media(pc){
     margin: auto 10px;
+    }
 }

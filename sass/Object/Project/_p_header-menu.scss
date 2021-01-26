@@ -1,7 +1,10 @@
 .p__header--menu{
-@include header--title--menu(2rem);
-margin: 0;
+@include header--title--menu(3rem);
+padding-top: 10px;
+padding-right: 10px;
 text-align: right;
+
+
 @include media(pc) {
     display: none;
     }
