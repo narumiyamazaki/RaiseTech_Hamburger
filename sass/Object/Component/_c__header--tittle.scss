@@ -1,9 +1,9 @@
 /*Component*/
 .c__header--title {
-    @include header--title--menu(4rem);
+    @include header--title--menu(5rem);
     margin: auto;
     text-align: center;
     @include media(pc){
     color: aqua;
-    }
+        }
 }

@@ -1,11 +1,12 @@
-.p__header--menu{
-@include header--title--menu(3rem);
-padding-top: 10px;
-padding-right: 10px;
-text-align: right;
-
-
-@include media(pc) {
-    display: none;
+.p__header--menu {
+    @include header--title--menu(3rem);
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: right;
+    line-height:1.5rem;
+    //include media(pc)で呼び出しているのはあくまでpcのメディアクエリの文字列。そのため{}が必要？
+        @include media(pc){
+            display: none;
+         
     }
 }
