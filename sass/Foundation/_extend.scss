@@ -6,3 +6,14 @@
     color:#707070;
     font-family:"M+ 1m bold";
 }
+
+/*navメニューの内訳部分*/
+.p__nav--burgermenu {
+    /*品目部分より文字が小さいため1remで*/
+    font-size:1.2rem;
+    color:#707070;
+    font-family:"M+ 1m bold";
+    //少し右にずれているので
+    padding-left: 1rem;
+    line-height: 3rem;
+}
