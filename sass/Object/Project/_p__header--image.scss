@@ -1,6 +1,17 @@
 .p__header--image {
+    position: relative;
          img {
-            width:100%;
-            height:100%;
-        } 
+            width: 100%;
+            height: 100%;
+            } 
+        //ダミーサイト文字部分
+        & p{
+            position: absolute;
+            color: #fff;
+            font-family: "M+ 1m bold";
+            font-size: 3rem;
+            font-weight: bold;
+            top: 0;
+            left: 0;
+        }
 }
