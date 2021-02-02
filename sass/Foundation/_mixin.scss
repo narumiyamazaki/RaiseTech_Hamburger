@@ -10,3 +10,10 @@
         @content;
     }
 }
+
+/*TakeOut・Eatin部分*/
+@mixin article {
+    width: calc(50% - 20px);
+    height: 630px;
+    background-size: cover;
+}

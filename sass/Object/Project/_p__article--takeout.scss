@@ -1,4 +1,5 @@
-/*TakeOut部分*/
 .p__article--takeout {
-    background-image:
+    @include article;
+    background: url(../../../image/front-page/front-page_main_takeout.jpg);
+    margin-right: 40px;
 }

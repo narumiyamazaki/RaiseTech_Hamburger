@@ -1,3 +1,7 @@
 .l__article{
     display:flex;
+    justify-content: center;
+    @include media(pc) {
+    padding:6rem 7rem 5rem;
+    }
 }
