@@ -9,9 +9,11 @@
             position: absolute;
             color: #fff;
             font-family: "M+ 1m bold";
-            font-size: 3rem;
+            font-size: 1.8rem;
             font-weight: bold;
-            top: 0;
-            left: 0;
+            //画像のtopから半分の位置に文字を移動。半分の位置から文字が設置されるが、フォントの大きさ分だけ中央から下にずれるため、フォントの半分だけ中央から上に戻す
+            top: calc(50% - 1rem);
+            margin: 0;
+            padding-left: 7rem;
         }
 }
