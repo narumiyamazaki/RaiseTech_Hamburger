@@ -22,7 +22,20 @@
 
 /*article eatin takeout*/
 .p__heading {
-    font-size: 5rem;
+    font-size: 6rem;
     color: #EAEAEA;
     font-family: "Roboto", sans-serif;
+    position: relative;
+    padding-left: 1rem;
+    margin-top: .9rem;
+        &::before {
+            content:"";
+            position: absolute;
+            left: 2rem;
+            /*線の上下位置*/
+            bottom: -15px;
+            width: 4.5rem;
+            height: .5rem;
+            background-color:#fff;
+        }
 }
