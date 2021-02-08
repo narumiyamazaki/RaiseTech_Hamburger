@@ -1,11 +1,18 @@
 .p__article--takeout {
-    margin-right: 40px;
     /*小見出しを下に配置するためにposition: relativeを設定*/
     position: relative;
     width: 100%;
     height: auto;
+    margin-bottom: 1rem;
         img {
             width: 100%;
             height: 100%;
         }
-    }
+        @include media(tb) {
+            
+            margin-right: 40px;
+        }
+        @include media(pc) {
+            
+        }
+     }

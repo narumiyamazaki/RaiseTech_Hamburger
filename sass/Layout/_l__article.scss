@@ -1,7 +1,15 @@
 .l__article{
-    display:flex;
-    justify-content: center;
+    padding:1rem;
+    width: 100%;
+    height: auto;
+    @include media(tb) {
+        display:flex;
+        justify-content: center;
+        padding:3rem 2rem 4rem;
+    }
     @include media(pc) {
-    padding: 6rem 5rem 7rem;
+        padding: 6rem 5rem 7rem;
+        display:flex;
+        justify-content: center;
     }
 }
