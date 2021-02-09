@@ -1,24 +1,28 @@
 .p__header--image {
     position: relative;
-         img {
-            width: 100%;
-            height: 100%;
-        }
-            & p{
-                //ダミーサイト文字部分
-                position: absolute;
-                color: #fff;
-                font-family: "M+ 1m bold";
-                font-size: 1.8rem;
-                font-weight: bold;
-                //画像のtopから半分の位置に文字を移動。半分の位置から文字が設置されるが、フォントの大きさ分だけ中央から下にずれるため、フォントの半分だけ中央から上に戻す
-                top: calc(50% - 1rem);
-                margin: 0;
-                padding-left: 7rem;   
-                } 
-           
+    background: url(../../../image/front-page/fornt-page_header.png) no-repeat center center;
+    background-size: contain;
+    //background-imageは要素自体に高さ指定が必要
+    /*表示画像の高さ / 表示画像の幅　* 100 */
+    width: 100%;
+}
+    /*スマホ時のpタグへのネスト
+        p{
+            //ダミーサイト文字部分
+            position: absolute;
+            color: #fff;
+            font-family: "M+ 1m bold";
+            font-size: 1.8rem;
+            font-weight: bold;
+            //画像のtopから半分の位置に文字を移動。半分の位置から文字が設置されるが、フォントの大きさ分だけ中央から下にずれるため、フォントの半分だけ中央から上に戻す
+            top: calc(50% - 1rem);
+            margin: 0;
+            padding-left: 7rem;   
+            } 
+
+        //tb時のpタグへのネスト
             @include media(tb) {
-            & p{
+            p　{
             //ダミーサイト文字部分
             position: absolute;
             color: #fff;
@@ -29,8 +33,10 @@
             top: calc(50% - 1rem);
             margin: 0;
             padding-left: 7rem;    
-            }
                 }
+            }
+
+        //pc時のpタグへのネスト
             @include media(pc){
             & p{
             //ダミーサイト文字部分
@@ -46,3 +52,4 @@
             }
         }
     }
+    */
