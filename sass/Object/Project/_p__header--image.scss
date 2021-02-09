@@ -1,13 +1,9 @@
 .p__header--image {
     position: relative;
-    background: url(../../../image/front-page/fornt-page_header.png) no-repeat center center;
-    background-size: contain;
-    //background-imageは要素自体に高さ指定が必要
-    /*表示画像の高さ / 表示画像の幅　* 100 */
     width: 100%;
-}
-    /*スマホ時のpタグへのネスト
-        p{
+    height: auto;
+    //スマホ時のpタグへのネスト
+        &p {
             //ダミーサイト文字部分
             position: absolute;
             color: #fff;
@@ -22,7 +18,7 @@
 
         //tb時のpタグへのネスト
             @include media(tb) {
-            p　{
+        &p　{
             //ダミーサイト文字部分
             position: absolute;
             color: #fff;
@@ -38,7 +34,7 @@
 
         //pc時のpタグへのネスト
             @include media(pc){
-            & p{
+        & p{
             //ダミーサイト文字部分
             position: absolute;
             color: #fff;
@@ -52,4 +48,3 @@
             }
         }
     }
-    */
