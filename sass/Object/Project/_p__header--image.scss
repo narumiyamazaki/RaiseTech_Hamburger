@@ -1,9 +1,11 @@
 .p__header--image {
     position: relative;
+    img {
     width: 100%;
     height: auto;
+        }
     //スマホ時のpタグへのネスト
-        &p {
+        & p{
             //ダミーサイト文字部分
             position: absolute;
             color: #fff;
@@ -18,7 +20,7 @@
 
         //tb時のpタグへのネスト
             @include media(tb) {
-        &p　{
+        & p{
             //ダミーサイト文字部分
             position: absolute;
             color: #fff;
@@ -34,7 +36,7 @@
 
         //pc時のpタグへのネスト
             @include media(pc){
-        & p{
+        &p{
             //ダミーサイト文字部分
             position: absolute;
             color: #fff;
