@@ -37,9 +37,9 @@
                             </div>
                         <!--メニュー・タイトル・検索バーのwrapper-->
                         </div>
-                        <!--header写真部分　imgタグの子要素にpタグやspamタグは入れられない？ div部分とimage部分の箱が同じ大きさの為imgタグにclassをつけていない-->
+                        <!--header写真部分　imgタグの子要素にpタグやspamタグは入れられない？ iswitch = image-switch-->
                         <div class="p__header--image">
-                            <img src="image/front-page/fornt-page_header.png" alt="ハンバーガー">
+                            <img class="p__header--image--js--iswitch" src="image/front-page/front-page_header_sp.png" alt="ハンバーガー">
                                 <p>ダミーサイト</p>
                         </div>
                     </header>
@@ -86,13 +86,15 @@
                             <!--googlemap部分-->
                                 <iframe class="p__aside--map" src="https://www.google.com/maps/d/embed?mid=1AJeFEUctVjLyANcnoHSS0-ZWAx0&hl=ja" width="640" height="480">
                                 </iframe>
-                                <!--地図全体を覆う半透明部分-->
+                                <!--地図全体-->
                                 <div class="p__aside--cover">
-                                    <!--見出しとテキスト-->
-                                    <div class="p__aside--textbox">
-                                        <h3 class="p__aside--heading">見出しが入ります</h3>
-                                            <div class="c__aside--text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</div>
-                                                <div class="c__aside--textblank"></div>
+                                    <!--半透明の2重になっている部分-->
+                                    <div class="p__aside--cover2">
+                                    <!--見出しとテキスト textboxは見出しと本文のpaddingなどをまとめて行うために必要？-->
+                                        <div class="p__aside--textbox">
+                                            <h3 class="p__aside--heading">見出しが入ります</h3>
+                                                <div class="c__aside--text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</div>
+                                        </div>
                                     </div>
                                 </div>
                         </aside>

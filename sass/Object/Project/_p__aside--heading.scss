@@ -2,17 +2,26 @@
 .p__aside--heading {
     color: #fff;
     font-family: "M+ 1m bold";
-    font-size: 2.2rem;
-    margin: 0;
+    font-size: 1.5rem;
+    margin-top: 2rem;
     position: absolute;
     /*ドロップシャドウ部分*/
         &::before {
             content:"";
             position: absolute;
-            /*線の上下位置*/
-            bottom: -4rem;
             width: 3rem;
             height: .2rem;
             background-color:#fff;
+            /*線の上下位置*/
+            bottom: -2rem;
+            @include media(tb) {
+            /*線の上下位置*/
+            bottom: -2rem;
+            }
+            @include media(pc) {
+            /*線の上下位置*/
+            bottom: -4rem;
+            font-size: 2.2rem;
+            }
     }
 }
