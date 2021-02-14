@@ -1,4 +1,7 @@
+
 //windowサイズによってheader画像を切り替える。
+
+//const { on } = require("gulp");??
 
 $(function() {
     // 置換の対象とするclass属性。
@@ -28,7 +31,7 @@ $(function() {
     }
     imageSwitch();
   
-    // 動的なリサイズは操作後0.2秒経ってから処理を実行する。
+    // 動的なリサイズは操作後0.1秒経ってから処理を実行する。
     var resizeTimer;
     $(window).on('resize', function() {
       clearTimeout(resizeTimer);
@@ -37,3 +40,15 @@ $(function() {
       }, 100);
     });
   });
+
+  //menuの開閉
+  $(function( ) {
+    $(".p__header--menu").on("click",function() {
+    $(".p__nav").addClass("is-open");
+    $(".l__container").addClass("is-active");
+    });
+    $(".p__nav--btn").on("click",function() {
+    $(".p__nav").removeClass("is-open");
+    $(".l__container").removeClass("is-active");
+  });
+});
