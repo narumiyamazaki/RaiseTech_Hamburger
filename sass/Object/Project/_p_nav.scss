@@ -18,6 +18,30 @@
         }
     }
 }
+//nav--body部分はPCサイズのみ表示させ、それ以外のときは非表示にする
+.p__nav {
+    display: none;
+    @include media(pc){
+        display: block;
+        background-color:#F2EDE9;
+        position: relative;
+        z-index: 200;
+    }
+}
+/*サイドメニューの開閉*/
+.p__nav-is-open {
+    display: block;
+    position: absolute;
+    right:0;
+    z-index: 200;
+    background-color:#F2EDE9;
+    text-align: left;
+    padding-left: 3rem;
+    
+    white-space: nowrap;
+    width: 80%;
+}
+
 .p__nav--btn {
     margin: 0;
     line-height: 80px;
@@ -27,15 +51,6 @@
         @include header--title--menu(2rem);
         }
     } 
-}
-
-//nav--body部分はPCサイズのみ表示させ、それ以外のときは非表示にする
-.p__nav {
-    display: none;
-    @include media(pc){
-        display: block;
-        background-color:#F2EDE9;
-    }
 }
 
 //サイドメニューの大項目

@@ -44,11 +44,15 @@ $(function() {
   //menuの開閉
   $(function( ) {
     $(".p__header--menu").on("click",function() {
-    $(".p__nav").addClass("is-open");
-    $(".l__container").addClass("is-active");
+    $(".p__nav").addClass("p__nav-is-open").removeClass("p__nav");
+    $(".p__sidemenu--backgroundcolor").addClass("p__sidemenu--backgroundcolor-is-active").removeClass("p__sidemenu--backgroundcolor");
+    $(".l__wrapper--main").addClass("l__wrapper--main-is-hidden").removeClass("l__wrapper--main");
+    $(".l__footer").addClass("l__footer-is-hidden").removeClass("l__footer");
     });
     $(".p__nav--btn").on("click",function() {
-    $(".p__nav").removeClass("is-open");
-    $(".l__container").removeClass("is-active");
+    $(".p__nav-is-open").addClass("p__nav").removeClass("p__nav-is-open");
+    $(".p__sidemenu--backgroundcolor-is-active").addClass("p__sidemenu--backgroundcolor").removeClass("p__sidemenu--backgroundcolor-is-active");
+    $(".l__wrapper--main-is-hidden").addClass("l__wrapper--main").removeClass("l__wrapper--main-is-hidden");
+    $(".l__footer-is-hidden").addClass("l__footer").removeClass("l__footer-is-hidden");
   });
 });
