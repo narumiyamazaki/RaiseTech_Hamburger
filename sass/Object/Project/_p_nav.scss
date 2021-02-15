@@ -1,11 +1,3 @@
-/*ナビゲーションメニュー一旦flexをコメントアウト
-.p__header--main {
-    display: flex;
-    //flexコンテナ内の要素を両端に配置する
-    justify-content:  space-between;
-}
-*/
-
 //ナビメニューのレイアウト部分
 .p__nav {
     text-align: left;
@@ -36,22 +28,11 @@
     z-index: 200;
     background-color:#F2EDE9;
     text-align: left;
-    padding-left: 3rem;
-    
+    padding-left: 3rem;   
     white-space: nowrap;
     width: 80%;
 }
 
-.p__nav--btn {
-    margin: 0;
-    line-height: 80px;
-    a {
-        text-decoration:none;
-        span{
-        @include header--title--menu(2rem);
-        }
-    } 
-}
 
 //サイドメニューの大項目
 .p__nav--side {

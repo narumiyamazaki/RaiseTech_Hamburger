@@ -48,11 +48,13 @@ $(function() {
     $(".p__sidemenu--backgroundcolor").addClass("p__sidemenu--backgroundcolor-is-active").removeClass("p__sidemenu--backgroundcolor");
     $(".l__wrapper--main").addClass("l__wrapper--main-is-hidden").removeClass("l__wrapper--main");
     $(".l__footer").addClass("l__footer-is-hidden").removeClass("l__footer");
+    $(".p__nav--container").addClass("p__nav--container").removeClass("p__nav--container");
     });
     $(".p__nav--btn").on("click",function() {
     $(".p__nav-is-open").addClass("p__nav").removeClass("p__nav-is-open");
     $(".p__sidemenu--backgroundcolor-is-active").addClass("p__sidemenu--backgroundcolor").removeClass("p__sidemenu--backgroundcolor-is-active");
     $(".l__wrapper--main-is-hidden").addClass("l__wrapper--main").removeClass("l__wrapper--main-is-hidden");
     $(".l__footer-is-hidden").addClass("l__footer").removeClass("l__footer-is-hidden");
+    $(".p__nav--container-is-open").addClass("p__nav--container").removeClass("p__nav--container--is-open");
   });
 });
