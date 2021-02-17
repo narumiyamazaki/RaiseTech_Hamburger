@@ -1,5 +1,5 @@
 $btnWidth: 3rem;
-$btnHeight: .4rem;
+$btnHeight: .3rem;
 button:focus{
     outline: 0;
 }
@@ -10,7 +10,7 @@ button:focus{
     margin: 0;
     line-height: 80px;
     position: absolute;
-    top: 1rem;
+    top: 2rem;
     right: 3rem;
     /*上下の横線*/
     &::before, &::after {
