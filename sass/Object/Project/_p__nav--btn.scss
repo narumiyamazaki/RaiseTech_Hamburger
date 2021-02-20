@@ -12,6 +12,11 @@ button:focus{
     position: absolute;
     top: 2rem;
     right: 3rem;
+    @include media(pc) {
+        left: 2.3rem;
+        //PC時メニュー名を左に持っていく
+
+    }
     /*メニューバツ印*/
     &::before, &::after {
         content: "";

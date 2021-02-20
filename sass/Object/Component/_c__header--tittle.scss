@@ -3,9 +3,10 @@
     @include header--title--menu(4rem);
     margin: auto;
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 5rem;
     @include media(pc){
-    color: aqua;
-    margin-left: 5rem;
+    padding-top: 0;
+    margin: 3rem 0 3rem 3rem; 
+    font-size: 3.5rem;
         }
 }

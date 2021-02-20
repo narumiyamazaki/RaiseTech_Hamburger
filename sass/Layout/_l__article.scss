@@ -5,10 +5,10 @@
     @include media(tb) {
         display:flex;
         justify-content: center;
-        padding:3rem 2rem 4rem;
+        padding:4rem;
     }
     @include media(pc) {
-        padding: 6rem 5rem 7rem;
+        padding: 6rem 5rem 6rem;
         display:flex;
         justify-content: center;
     }

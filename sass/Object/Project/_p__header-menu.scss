@@ -3,14 +3,12 @@
     position: absolute;
     top:2rem;
     right:1rem;
-    text-align: right;
-    line-height:1.5rem;
         @include media(tb) {
             font-size: 3rem;
+            margin-right: 1rem;
         }
     //include media(pc)で呼び出しているのはあくまでpcのメディアクエリの文字列。そのため{}が必要？
         @include media(pc){
             display: none;
-         
     }
 }

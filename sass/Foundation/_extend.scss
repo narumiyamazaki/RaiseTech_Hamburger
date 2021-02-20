@@ -2,7 +2,7 @@
 /*navメニューの品目部分*/
  .p__nav--burger {
     /*htmlが16pxなので24px　必要に応じて割合調整*/
-    font-size:2rem;
+    font-size:1.5rem;
     font-weight: bold;
     color:#707070;
     font-family:"M+ 1m bold";
@@ -15,8 +15,8 @@
     color:#707070;
     font-family:"M+ 1m regular";
     //少し右にずれているので
-    padding-left: 2rem;
+    padding-left: 1.5rem;
     padding-top: 1.1rem;
     padding-bottom: 1.2rem;
-    line-height: 3rem;
+    line-height: 3.3rem;
 }

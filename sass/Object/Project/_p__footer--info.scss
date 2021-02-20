@@ -5,14 +5,14 @@
     font-family: "M+ 1m regular";
     font-size: 1.4rem;
     position: relative;
-    margin-top: .5rem;
     text-align: center;
     justify-content: center;
+    @include media(tb){
+        font-size: 1.5rem;
+        margin: 1.5rem 0;
+    }
+    @include media(pc){
+        font-size: 1.2rem;
+        margin: 1.5rem 0;
+    }
 }
-    /*&::after  {
-        content:"";
-        background-color:#fff;
-        width: 1rem;
-        height: 1rem;
-        position: absolute;
-    }*/

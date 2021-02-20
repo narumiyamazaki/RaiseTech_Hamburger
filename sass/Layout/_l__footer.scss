@@ -5,6 +5,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    @include media(tb){
+        height: 12rem;
+    }
+    @include media(pc){
+        height: 9rem;
+    }
 }
 .l__footer-is-hidden {
     display: none;

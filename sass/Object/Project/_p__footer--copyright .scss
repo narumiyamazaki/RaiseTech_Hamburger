@@ -2,4 +2,10 @@
     color: #fff;
     font-family: "M+ 1m regular";
     font-size: 0.8rem;
+    @include media(tb) {
+        font-size: 1.1rem;
+    }
+    @include media(pc) {
+            font-size: 1.0rem;
+    }
 }
