@@ -1,7 +1,0 @@
-/*.p__header--wrapper*/
-.p__header--wrapper {
-    @include media(pc) {
-        display: flex;
-        justify-content: space-between;
-    }
-}

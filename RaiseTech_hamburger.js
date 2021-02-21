@@ -5,7 +5,7 @@
 
 $(function() {
     // 置換の対象とするclass属性。
-    var $elem = $('.p__header--image--js--iswitch');
+    var $elem = $('.p-header__image--js--iswitch');
     // 置換の対象とするsrc属性の末尾の文字列。
     var sp = '_sp';
     var tbpc = '_tbpc';
@@ -43,19 +43,18 @@ $(function() {
 
   //menuの開閉
   $(function( ) {
-    $(".p__header--menu").on("click",function() {
-    $(".p__nav").addClass("p__nav-is-open").removeClass("p__nav");
-    $(".p__sidemenu--backgroundcolor").addClass("p__sidemenu--backgroundcolor-is-active").removeClass("p__sidemenu--backgroundcolor");
-    $(".p__nav--container").addClass("p__nav--container-is-open").removeClass("p__nav--container");
-    $(".l__wrapper--main").addClass("l__wrapper--main-is-hidden").removeClass("l__wrapper--main");
-    $(".l__footer").addClass("l__footer-is-hidden").removeClass("l__footer");
+    $(".p-header__menu").on("click",function() {
+    $(".p-nav").addClass("p-nav-is-open").removeClass("p-nav");
+    $(".p-sidemenu__backgroundcolor").addClass("p-sidemenu__backgroundcolor-is-active").removeClass("p-sidemenu__backgroundcolor");
+    $(".p-nav__container").addClass("p-nav__container").removeClass("p-nav__container");
+    $(".l-wrapper__main").addClass("l-wrapper__main-is-hidden").removeClass("l-wrapper__main");
+    $(".l-footer").addClass("l-footer-is-hidden").removeClass("l-footer");
     });
-    $(".p__nav--btn").on("click",function() {
-    $(".p__nav-is-open").addClass("p__nav").removeClass("p__nav-is-open");
-    $(".p__sidemenu--backgroundcolor-is-active").addClass("p__sidemenu--backgroundcolor").removeClass("p__sidemenu--backgroundcolor-is-active");
-    $(".p__nav--container-is-open").addClass("p__nav--container").removeClass("p__nav--container-is-open");
-    $(".l__body-is-fixed").addClass("l__body").removeClass("l__body-is-fixed");
-    $(".l__wrapper--main-is-hidden").addClass("l__wrapper--main").removeClass("l__wrapper--main-is-hidden");
-    $(".l__footer-is-hidden").addClass("l__footer").removeClass("l__footer-is-hidden");
+    $(".p-nav__btn").on("click",function() {
+    $(".p-nav-is-open").addClass("p-nav").removeClass("p-nav-is-open");
+    $(".p-sidemenu__backgroundcolor-is-active").addClass("p-sidemenu__backgroundcolor").removeClass("p-sidemenu__backgroundcolor-is-active");
+    $(".p-nav__container-is-open").addClass("p-nav__container").removeClass("p-nav__container-is-open");
+    $(".l-wrapper__main-is-hidden").addClass("l-wrapper__main").removeClass("l-wrapper__main-is-hidden");
+    $(".l-footer-is-hidden").addClass("l-footer").removeClass("l-footer-is-hidden");
   });
 });

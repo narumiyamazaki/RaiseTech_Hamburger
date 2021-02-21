@@ -1,6 +1,6 @@
 //メニュータイトルのextend
 /*navメニューの品目部分*/
- .p__nav--burger {
+ .p-nav__burger {
     /*htmlが16pxなので24px　必要に応じて割合調整*/
     font-size:1.5rem;
     font-weight: bold;
@@ -9,7 +9,7 @@
 }
 
 /*navメニューの内訳部分*/
-.p__nav--burgermenu {
+.p-nav__burgermenu {
     /*品目部分より文字が小さいため1remで*/
     font-size:1.5rem;
     color:#707070;
