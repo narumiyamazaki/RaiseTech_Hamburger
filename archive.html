@@ -9,7 +9,46 @@
     <script src="RaiseTech_hamburger.js"></script>
     <title>RaiseTech_hamburger_Archive</title>
 </head>
-<body>
-    <h1>test</h1>
-</body>
+    <body>
+        <!--サイドメニューの半透明黒部分-->
+        <div class="p-sidemenu__background">
+            <div class="p-sidemenu__backgroundcolor"></div>
+        </div>
+        <!--footer以外を包むwrapper-->
+        <div class="l-container">
+            <!--サイドメニューを含まない部分-->
+                <div class="l-wrapper__main">
+                <!--header部分　メニュー・サイト名～写真部分まで-->
+                    <header class="l-header" role="banner">
+                        <!--メニュー、タイトル、検索バーのwrapper　PCサイズ以外の時はすべて縦てで並べておき、PCサイズになったらメニューを非表示にして、このwrapper部分にflexをかけてメニューと検索バーを並べる-->
+                        <div class="p-header__wrapper">
+                            <!--メニュー部分-->
+                            <div class="p-header__menu"><span>Menu</span></div> 
+                            <!--タイトル部分-->
+                            <h2 class="c-header__title">Hamburger</h2>
+                            <!--検索バー　後で虫眼鏡のアイコンを入れる　サイト名の右にflexか何かで並べる必要があるため、検索バーをサイト名の子要素としているWPのプラグインらしいので暫定的にコメントアウト-->
+                            <div class=c-searchform>
+                                <form id="form01" action="" method="get">
+                                <input class="c-searchform__box" type="search" name="searchform">
+                                <input class="c-submit"type="submit" value="検索"> 
+                                </form>
+                            <!--検索バーまで-->
+                            </div>
+                        <!--メニュー・タイトル・検索バーのwrapper-->
+                        </div>
+                         <!--header写真部分　imgタグの子要素にpタグやspamタグは入れられない？ iswitch = image-switch-->
+                         <div class="p-header__image">
+                            <img class="p-header__image" src="image/archive-page/archive-page-header.png" alt="美味しそうなハンバーガー">
+                                <p>Menu:</p><spam>チーズバーガー</spam>
+                        </div>
+                    </header>
+                     <!--アーカイブ・小見出し・メニュー送り部分-->
+                     <main class="l-main__archive">
+                         <aside class="p-aside__textbox--archive">
+                             <h3 class="p-aside__heading">小見出しが入ります</h3>
+                             <p class="p-aside__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+                         </aside>
+
+                    <!--header部分終了 -->
+    </body>
 </html>
