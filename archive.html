@@ -25,7 +25,7 @@
                             <!--メニュー部分-->
                             <div class="p-header__menu"><span>Menu</span></div> 
                             <!--タイトル部分-->
-                            <h2 class="c-header__title">Hamburger</h2>
+                            <h1 class="c-header__title">Hamburger</h2>
                             <!--検索バー　後で虫眼鏡のアイコンを入れる　サイト名の右にflexか何かで並べる必要があるため、検索バーをサイト名の子要素としているWPのプラグインらしいので暫定的にコメントアウト-->
                             <div class=c-searchform>
                                 <form id="form01" action="" method="get">
@@ -37,21 +37,95 @@
                         <!--メニュー・タイトル・検索バーのwrapper-->
                         </div>
                          <!--header写真部分　imgタグの子要素にpタグやspamタグは入れられない？ iswitch = image-switch-->
-                         <div class="p-header__image">
-                            <img class="p-header__image" src="image/archive-page/archive-page-header.png" alt="美味しそうなハンバーガー">
-                                <p>Menu:</p><spam>チーズバーガー</spam>
+                         <div class="p-header__image--archive">
+                            <img class="p-header__image--archive" src="image/archive-page/archive-page-header.png" alt="美味しそうなハンバーガー">
+                                <p>Menu:<spam>チーズバーガー</spam></p>
                         </div>
                     </header>
-                     <!--アーカイブ・小見出し・メニュー送り部分-->
-                     <main class="l-main__archive">
-                         <aside class="p-aside__textbox--archive">
-                             <h3 class="p-aside__heading">小見出しが入ります</h3>
+                     <!--アーカイブ・小見出し・メニュー部分-->
+                    <main class="l-main__archive">
+                        <aside class="p-aside__textbox--archive">
+                             <h4 class="p-aside__heading">小見出しが入ります</h4>
                              <p class="p-aside__text">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-                         </aside>
-                         <article class="p-article__archive">
-                             <img class="p-article__archive--image1">
-                         </article>
-
-                    <!--header部分終了 -->
+                        </aside>
+                        <article class="p-article__archive">
+                            <img class="p-article__image1--archive">
+                            <div class="p-article__textbox--archive">
+                                <h2 class="p-article__menu-name--archive">チーズバーガー</h2>
+                                <h3 class="p-article__heading--archive">小見出しが入ります</h3>
+                                <textarea class="p-article__textarea--archive">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</textarea>
+                                <button class="c-article__button">詳しく見る</button>
+                            </div>
+                            <div class="p-article__textbox--archive">
+                                <h2 class="p-article__menu-name--archive">ダブルチーズバーガー</h2>
+                                <h3 class="p-article__heading--archive">小見出しが入ります</h3>
+                                <textarea class="p-article__textarea--archive">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</textarea>
+                                <button class="c-article__button">詳しく見る</button>
+                            </div>
+                            <div class="p-article__textbox--archive">
+                                <h2 class="p-article__menu-name--archive">スペシャルチーズバーガー</h2>
+                                <h3 class="p-article__heading--archive">小見出しが入ります</h3>
+                                <textarea class="p-article__textarea--archive">テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</textarea>
+                                <button class="c-article__button">詳しく見る</button>
+                            </div>
+                        </article>
+                    </main>
+                </div>
+                <nav class="p-nav__container">
+                    <div class="p-nav">
+                        <button class="p-nav__btn">
+                            <a href="javascript:void(0)"></a>
+                                <span>Menu</span>
+                        </button>
+                        <!--ナビゲーションの背景の黒の透過部分等を再現するためのwrapper p-navに黒い部分を選択すると、ボタン部分まで黒くなってしまう。PCサイズ以外はp-nav---->
+                        <div class="p-nav__wrapper">
+                            <!--ナビゲーションメニューのメニューが書いてある部分-->
+                            <nav class="p-nav__body">
+                                <div class="p-nav__burger">バーガー</div>
+                                    <ul class="p-nav__burgermenu"> 
+                                        <li>ハンバーガー</li>
+                                        <li>チーズバーガー</li>
+                                        <li>テリヤキバーガー</li>
+                                        <li>アボカドバーガー</li>
+                                        <li>フィッシュバーガー</li>
+                                        <li>ベーコンバーガー</li>
+                                        <li>チキンバーガー</li>
+                                    </ul>
+                                <div class="p-nav__side">サイド</div>
+                                    <ul class="p-nav__sidemenu">
+                                        <li>ポテト</li>
+                                        <li>サラダ</li>
+                                        <li>ナゲット</li>
+                                        <li>コーン</li>
+                                    </ul>
+                                <div class="p-nav__drink">ドリンク</div>
+                                    <ul class="p-nav__drinkmenu">
+                                        <li>コーラ</li>
+                                        <li>ファンタ</li>
+                                        <li>オレンジ</li>
+                                        <li>アップル</li>
+                                        <li>紅茶（Ice/Hot)</li>
+                                        <li>コーヒー（Ice/Hot)</li>
+                                    </ul>
+                            <!--navbody部分終了-->
+                            </nav>
+                        <!--nav--wrapper部分終了-->
+                        </div>
+                    <!--navのボタン部分とか-->
+                    </div>
+                <!--footer以外を包むwrapperの終了-->
+                </div>
+            </nav>
+        <footer class="l-footer">
+            <div class="p-footer__info">
+                <div class="p-footer__info--shop">ショップ情報
+                </div>
+                <div class="p-footer__info--verticalline">
+                </div>
+                <div class="p-footer__info--history">ヒストリー
+                </div>
+            </div>
+            <p class="p-footer__copyright">Copyright:RaiseTech</p>      
+        </footer>  
     </body>
 </html>
