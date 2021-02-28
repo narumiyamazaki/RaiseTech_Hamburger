@@ -1,5 +1,5 @@
 
-//windowサイズによってheader画像を切り替える。
+//windowサイズによってheader画像を切り替える。frontページ
 
 //const { on } = require("gulp");??
 
@@ -22,15 +22,14 @@ $(function() {
         // ウィンドウサイズが768px以上であれば_spを_pcに置換する。
         if(windowWidth >= replaceWidth) {
           $this.attr('src', $this.attr('src').replace(sp, tbpc));
-  
         // ウィンドウサイズが768px未満であれば_pcを_spに置換する。
         } else {
           $this.attr('src', $this.attr('src').replace(tbpc, sp));
         }
       });
     }
-    imageSwitch();
-  
+
+    imageSwitch();  
     // 動的なリサイズは操作後0.1秒経ってから処理を実行する。
     var resizeTimer;
     $(window).on('resize', function() {
