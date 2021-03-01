@@ -1,0 +1,8 @@
+.c-article__button {
+    $buttonWidth: 60%;
+    position: absolute;
+    border-radius: 10rem;
+    width:$buttonWidth;
+    height:3rem;
+    left: calc(50% - ($buttonWidth / 2));
+}
