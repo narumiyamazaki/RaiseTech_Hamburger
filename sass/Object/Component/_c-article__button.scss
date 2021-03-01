@@ -1,8 +1,10 @@
 .c-article__button {
-    $buttonWidth: 60%;
+    $buttonWidth: 40%;
     position: absolute;
     border-radius: 10rem;
     width:$buttonWidth;
-    height:3rem;
-    left: calc(50% - ($buttonWidth / 2));
+    height:4rem;
+    left: calc(50% - (40% / 2));
+    //textから下部分が10remの為その半分
+    margin-top: 3rem;
 }

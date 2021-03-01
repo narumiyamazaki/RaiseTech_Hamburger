@@ -1,4 +1,7 @@
 .p-article__archive--wrapper {
     display: flex;
     flex-direction: column;
+    @include media(tb) {
+        flex-direction: row;
+    }
 }
