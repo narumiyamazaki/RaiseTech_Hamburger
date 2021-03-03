@@ -3,5 +3,6 @@
     flex-direction: column;
     @include media(tb) {
         flex-direction: row;
+        margin-bottom: 2rem;
     }
 }
