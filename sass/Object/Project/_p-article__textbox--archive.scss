@@ -8,4 +8,7 @@
     @include media(tb) {
         margin:0;
     }
+    @include media(pc) {
+        padding-bottom: 0rem;
+    }
 }
