@@ -1,3 +1,0 @@
-node_modulesはgitignoreされているので
-npm installでパッケージをインストールする必要がありそう。
-glupとかもインストール出来るかどうか・・・node.jsの導入から必要かも
