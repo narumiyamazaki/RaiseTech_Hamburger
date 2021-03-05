@@ -1,0 +1,12 @@
+.p-aside__heading4-6--single {
+    font-family:"M+ 1m bold";
+    font-size: 1.7rem;
+    color: #3C2A10;
+    margin: 2.5rem 0;
+    @include media(tb) {
+        font-size: 3.5rem;
+    }
+    @include media (pc) {
+        font-size: 2.5rem;
+    }
+}

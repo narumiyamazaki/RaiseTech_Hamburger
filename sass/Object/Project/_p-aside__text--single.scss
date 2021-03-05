@@ -1,0 +1,14 @@
+.p-aside__text--single {
+    font-family:"M+ 1m regular";
+    font-size: 1.5rem;
+    width: 95%;
+    @include media(tb) {
+        font-size: 1.5rem;
+        width:100%;
+        margin-bottom: 2rem;
+    }
+    @include media(pc) {
+        font-size: 1.2rem;
+        margin-bottom: 6rem;
+    }
+}
