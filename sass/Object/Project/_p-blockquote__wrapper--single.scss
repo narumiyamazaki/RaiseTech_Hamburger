@@ -1,0 +1,12 @@
+.p-blockquote__wrapper--single {
+    background-color: #F5F5F5;
+    padding: 3rem 1.4rem;
+    margin-bottom: 3rem;
+    @include media(tb) {
+        padding: 5rem 3rem;
+        margin-bottom: 5rem;
+    }
+    @include media(pc) {
+        padding: 4rem 3rem;
+    }
+}

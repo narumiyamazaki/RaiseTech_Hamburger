@@ -1,9 +1,9 @@
 .l-main__single {
     margin: 2.5rem;
     @include media(tb) {
-        margin: 3rem;
+        margin: 5rem;
     }
     @include media(pc) {
-        margin: 6rem;
+        margin: 4rem;
     }
 }
