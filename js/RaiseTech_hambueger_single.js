@@ -5,7 +5,10 @@
 
 $(function() {
     // 置換の対象とするclass属性。
+   // var $elem = $('.p-header__image--single--js--iswitch' && '.p-article__single--main-img--js--iswitch');
     var $elem = $('.p-header__image--single--js--iswitch');
+    //var $elem = $('.p-article__single--main-img--js--iswitch');
+    
     // 置換の対象とするsrc属性の末尾の文字列。
     var sp = '_sp';
     var tb = '_tb';
@@ -18,7 +21,7 @@ $(function() {
       // ウィンドウサイズを取得する。
       var windowWidth = parseInt(window.innerWidth);
   
-      // ページ内にあるすべての`.js-image-switch`に適応される。
+      // ページ内にあるすべての`.p-header__image--single--js--iswitch`に適応される。
       $elem.each(function() {
         var $this = $(this);
         // ウィンドウサイズが768px以上1024未満であれば_spを_tbに _pcを_tbに置換する。
@@ -36,6 +39,10 @@ $(function() {
         }
       });
     }
+
+    
+
+    
 
     imageSwitch();  
     // 動的なリサイズは操作後0.1秒経ってから処理を実行する。
