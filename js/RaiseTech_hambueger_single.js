@@ -5,8 +5,8 @@
 
 $(function() {
     // 置換の対象とするclass属性。
-   // var $elem = $('.p-header__image--single--js--iswitch' && '.p-article__single--main-img--js--iswitch');
-    var $elem = $('.p-header__image--single--js--iswitch');
+   var $elem = $('.p-header__image--single--js--iswitch , .p-article__single--main-img--js--iswitch');
+    //var $elem = $('.p-header__image--single--js--iswitch');
     //var $elem = $('.p-article__single--main-img--js--iswitch');
     
     // 置換の対象とするsrc属性の末尾の文字列。
