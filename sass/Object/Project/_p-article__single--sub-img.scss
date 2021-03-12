@@ -4,4 +4,7 @@
    align-items: flex-start;
    height: 100%;
    margin-right: 1rem;
+   @include media(tb) {
+      height: auto;
+   }
 }

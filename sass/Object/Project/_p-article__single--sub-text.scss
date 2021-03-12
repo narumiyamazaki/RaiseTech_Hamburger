@@ -5,4 +5,7 @@
     flex: 1;
     height:17rem;
     overflow: hidden;
+    @include media(tb) {
+        height: auto;
+    }
 }
