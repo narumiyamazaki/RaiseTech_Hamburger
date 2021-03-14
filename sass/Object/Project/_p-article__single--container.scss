@@ -1,4 +1,19 @@
 .p-article__single--container {
     display: flex;
     margin: 3rem 0;
+    @include media(tb) {
+        margin: 6rem 0 12rem;
+    }
+    @include media(pc) {
+        margin: 4rem 0;
+    }
+}
+
+.p-article__single--container:nth-child(3) {
+    @include media(tb) {
+        margin-bottom: 6.3rem;
+    }
+    @include media(pc) {
+        margin-bottom: 3rem;
+    }
 }

@@ -4,10 +4,11 @@
     color: #3C2A10;
     margin: 2.5rem 0;
     @include media(tb) {
-        font-size: 1.5rem;
-        margin:3.5rem 0;
+        font-size: 1.8rem;
+        margin:5.5rem 0 5.9rem;
     }
     @include media (pc) {
         font-size: 1rem;
+        margin: 3rem 0;
     }
 }

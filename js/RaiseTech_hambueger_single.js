@@ -5,7 +5,7 @@
 
 $(function() {
     // 置換の対象とするclass属性。
-   var $elem = $('.p-header__image--single--js--iswitch , .p-article__single--main-img--js--iswitch , p-article__single--sub-img--js--iswitch , .p-article__single--bottom-img--js--iswitch , .p-section__single--img--js--iswitch');
+   var $elem = $('.p-header__image--single--js--iswitch , .p-article__single--main-img--js--iswitch , .p-article__single--sub-img--js--iswitch , .p-article__single--bottom-img--js--iswitch , .p-section__single--img--js--iswitch');
     //var $elem = $('.p-header__image--single--js--iswitch');
     //var $elem = $('.p-article__single--main-img--js--iswitch');
     

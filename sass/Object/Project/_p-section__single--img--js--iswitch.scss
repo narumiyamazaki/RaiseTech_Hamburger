@@ -1,11 +1,18 @@
 .p-section__single--img--js--iswitch {
     display: block;
-    margin: 2rem auto;
+    margin: 1rem auto;
+    @include media(tb) {
+        margin: 0 auto 2rem;
+    }
+    @include media(pc) {
+        width: 32%;
+        height: auto;
+    }
 }
 
 .p-section__single--img--js--iswitch:nth-child(9n){
     @include media(tb) {
-        margin: 2rem 0;
+        margin: 0 0 2rem;
     }
     @include media(pc) {
         margin: 2rem auto;

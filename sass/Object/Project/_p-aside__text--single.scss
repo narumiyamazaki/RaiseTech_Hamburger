@@ -5,10 +5,11 @@
     @include media(tb) {
         font-size: 1.5rem;
         width:100%;
-        margin-bottom: 6rem;
+        margin: 5.5rem 0;
     }
     @include media(pc) {
         font-size: .6rem;
-        margin-bottom: 4rem;
+        margin-top: 3rem;
+        margin-bottom: 0;
     }
 }

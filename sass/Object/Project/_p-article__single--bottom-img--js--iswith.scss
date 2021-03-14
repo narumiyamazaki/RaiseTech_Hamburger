@@ -1,4 +1,12 @@
 .p-article__single--bottom-img--js--iswitch{
+    width: 100%;
     margin: 3rem auto 2rem;
     display: block;
+    @include media(tb) {
+        margin-bottom: 24rem;
+    }
+    @include media(pc) {
+        width:45%;
+        margin-bottom: 3rem;
+    }
 }
