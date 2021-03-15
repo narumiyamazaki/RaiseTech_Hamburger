@@ -1,7 +1,6 @@
 .p-header__image--single {
     position: relative;
     img {
-    width: 100%;
     background-color: rgba(0, 0,0, .8);
     @include media(tb) {
         height: 53rem;

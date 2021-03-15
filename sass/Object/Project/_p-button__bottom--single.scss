@@ -1,0 +1,13 @@
+.p-button__bottom--single {
+    //表の左側と同じ長さ
+    font-size: 1rem;
+    transform:scale(0.8);
+    transform-origin: 0 0;
+    //width: 20% / 0.8
+    width: 25%;
+    height: 4rem;
+    border-radius: 1rem;
+    border-width: .1rem;
+    color: #707070;
+    font-family:"M+ 1m bold";
+}
