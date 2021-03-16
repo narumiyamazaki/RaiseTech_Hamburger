@@ -1,9 +1,9 @@
 .p-section__single--img--js--iswitch {
     display: block;
-    margin: 1.2rem auto 1.8rem;
+    margin: 2rem auto 1rem;
     width: 100%;
     @include media(tb) {
-        margin: 1rem auto 2rem;
+        margin: 1rem auto 1rem;
         height: auto;
     }
     @include media(pc) {
