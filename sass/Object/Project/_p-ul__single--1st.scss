@@ -3,4 +3,9 @@
     margin-top:5.3rem;
     padding:0;
     font-size: 1.6rem;
+    @include media(tb) {
+        padding-left: 5rem;
+        font-size: 1.4rem;
+        margin-top: 5rem;
+    }
 }

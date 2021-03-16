@@ -6,7 +6,7 @@
     overflow:hidden;
     @include media(tb) {
         height: auto;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
     @include media(pc) {
         font-size: 1rem;

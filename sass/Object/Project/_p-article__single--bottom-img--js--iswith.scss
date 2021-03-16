@@ -3,8 +3,10 @@
     margin: 4.5rem auto 2rem;
     display: block;
     @include media(tb) {
-        margin-bottom: 24rem;
-        width: 100%;
+        margin-top: 8rem;
+        margin-bottom: 22rem;
+        width: 80%;
+
     }
     @include media(pc) {
         width:45%;
