@@ -1,9 +1,10 @@
 .p-article__single--bottom-img--js--iswitch{
-    width: 100%;
-    margin: 3rem auto 2rem;
+    width: 80%;
+    margin: 4.5rem auto 2rem;
     display: block;
     @include media(tb) {
         margin-bottom: 24rem;
+        width: 100%;
     }
     @include media(pc) {
         width:45%;
