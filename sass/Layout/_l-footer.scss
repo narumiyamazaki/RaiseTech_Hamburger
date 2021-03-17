@@ -6,7 +6,7 @@
     align-items: center;
     flex-direction: column;
     @include media(tb){
-        height: 12rem;
+        height: 14rem;
     }
     @include media(pc){
         height: 9rem;
