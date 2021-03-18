@@ -19,6 +19,7 @@
         margin: 1rem .6578rem 2rem;
     }
     @include media(pc) {
-        margin: 0rem auto;
+        margin: 0 .9250rem .9250rem 0;
+        width: 32%;
     }
 }
