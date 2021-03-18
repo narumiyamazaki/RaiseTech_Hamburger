@@ -6,4 +6,9 @@
         margin-top: 1.5rem;
         font-size: 1.4rem;
     }
+    @include media(pc) {
+        padding-left: .5rem;
+        font-size: 1rem;
+        margin-top: .5rem;
+    }
 }
