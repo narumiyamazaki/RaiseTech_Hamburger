@@ -2,8 +2,11 @@
     border:solid 1px #707070;
     width:30%;
     height:7rem;
-    padding-left:3rem;
+    padding-left:2rem;
     font-size: 1.5rem;
+    @include media(tb){
+    padding-left: 3rem;
+    }
     @include media(pc){
     width: 35%;
     height: 4rem;
