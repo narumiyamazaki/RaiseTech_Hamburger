@@ -1,0 +1,7 @@
+.p-thead1 > tr {
+    border: solid red .2rem;
+    margin: 1rem;
+    & > th {
+        padding: 1rem;
+    }
+}
