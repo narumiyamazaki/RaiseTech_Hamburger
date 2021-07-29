@@ -1,4 +1,4 @@
-.p-verticalLine--top--bottom{
+.p-verticalLine--left--right{
     width: 300px;
     height: 100px;
     border-radius:3rem 0 3rem 0;
@@ -10,7 +10,7 @@
     position: relative;
     > p {
         margin: 0;
-        font-size:1.5rem;
+        font-size: 1.5rem;
     }
     //疑似要素
     & ::before {
@@ -20,8 +20,7 @@
     height: 2rem;;
     background-color:gray;
     position:absolute;
-    left: 50%;
-    top: 0%;
+    top: 50%;
     }
     & ::after {
     content:"";
@@ -30,7 +29,7 @@
     height: 2rem;;
     background-color:gray;
     position:absolute;
-    bottom: 0%;
-    left: 50%;
+    top: 50%;
+    right: 0%;
     }
 }

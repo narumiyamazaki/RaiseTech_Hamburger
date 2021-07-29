@@ -1,4 +1,4 @@
-.p-verticalLine--top--bottom{
+.p-text2{
     width: 300px;
     height: 100px;
     border-radius:3rem 0 3rem 0;
@@ -14,23 +14,18 @@
     }
     //疑似要素
     & ::before {
-    content:"";
-    display: block;
-    width: 1rem;
-    height: 2rem;;
-    background-color:gray;
+    content:"文字も入れれます";
+    color: cadetblue;
     position:absolute;
-    left: 50%;
-    top: 0%;
+    top: -20%;
+    font-size: 1.2rem;
     }
     & ::after {
-    content:"";
-    display: block;
-    width: 1rem;
-    height: 2rem;;
-    background-color:gray;
+    content:"文字も入れれます";
+    color:blue;
     position:absolute;
-    bottom: 0%;
-    left: 50%;
+    top: 30%;
+    right: 40%;
+    font-size: 1.4rem;
     }
 }
