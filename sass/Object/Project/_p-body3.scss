@@ -1,0 +1,12 @@
+.p-tbody3 > tr {
+    border: solid red 0.2rem;
+    & > th {
+        padding: 1rem;
+    }
+    & > td {
+        text-align: center;
+        padding: 1rem;
+        font-size: 1.3rem;
+        border-left: dotted red .2rem;
+    }
+}

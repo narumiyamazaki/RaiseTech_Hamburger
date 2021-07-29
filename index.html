@@ -40,6 +40,60 @@
                 </tr>
             </tbody>
         </table>
+        <table class="p-table2">
+            <caption class="p-caption2">captionタグ caption-side:bottom</caption>
+            <thead class="p-thead2">
+                <tr>
+                    <td></td>
+                    <th scope="col">列のヘッダーセル1</th>
+                    <th scope="col">列のヘッダーセル2</th>
+                    <th scope="col">列のヘッダーセル3</th>
+                </tr>    
+            </thead>
+            <tbody class="p-tbody2">
+                <tr>
+                    <th scope="row">行のヘッダーセルA</th>
+                    <td colspan="2">1A・2A colspan2</td>
+                    <td>3A</td>
+                </tr>
+                <tr>
+                    <th scope="row">行のヘッダーセルB</th>
+                    <td>1B</td>
+                    <td colspan="2">2B・3B colspan2</td>
+                </tr>
+                <tr>
+                    <th scope="row">行のヘッダーセルC</th>
+                    <td colspan="3">1C・2C・3C colspan3</td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="p-table3">
+            <caption class="p-caption3">captionタグ</caption>
+            <thead class="p-thead3">
+                <tr>
+                    <td></td>
+                    <th scope="col">列のヘッダーセル1</th>
+                    <th scope="col">列のヘッダーセル2</th>
+                    <th scope="col">列のヘッダーセル3</th>
+                </tr>    
+            </thead>
+            <tbody class="p-tbody3">
+                <tr>
+                    <th scope="row">行のヘッダーセルA</th>
+                    <td>1A</td>
+                    <td rowspan="2">2A・2B rowspan 2</td>
+                    <td rowspan="3">3A・3B・3C rowspan 3</td>
+                </tr>
+                <tr>
+                    <th scope="row">行のヘッダーセルB</th>
+                    <td rowspan="2">1B・1C rowspan2</td>
+                </tr>
+                <tr>
+                    <th scope="row">行のヘッダーセルC</th>
+                    <td>2B</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 </body>
 </html>
